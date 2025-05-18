@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ayush Sharma | AI/ML Portfolio</title>
   <!-- AOS CDN for scroll animations -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -81,13 +82,13 @@
       border-radius: 10px;
       padding: 20px;
       margin-bottom: 20px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
       transition: 0.3s ease;
     }
 
     .card:hover {
       transform: translateY(-3px);
-      box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
     }
 
     a {
@@ -154,14 +155,29 @@
     }
 
     @keyframes typing {
-      0% { width: 0; }
-      50% { width: 50%; }
-      100% { width: 100%; }
+      0% {
+        width: 0;
+      }
+
+      50% {
+        width: 50%;
+      }
+
+      100% {
+        width: 100%;
+      }
     }
 
     @keyframes blink {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0; }
+
+      0%,
+      100% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 0;
+      }
     }
 
     #welcome-screen.fade-out {
@@ -169,11 +185,18 @@
     }
 
     @keyframes fadeOut {
-      0% { opacity: 1; }
-      100% { opacity: 0; visibility: hidden; }
+      0% {
+        opacity: 1;
+      }
+
+      100% {
+        opacity: 0;
+        visibility: hidden;
+      }
     }
   </style>
 </head>
+
 <body>
   <div id="welcome-screen">
     <div class="welcome-content">
@@ -192,7 +215,8 @@
 
   <section style="background: #ecf0f1; padding: 30px 20px; text-align: center;" data-aos="fade-up">
     <div style="max-width: 800px; margin: auto; font-size: 1.1em; color: var(--text-color); line-height: 1.8em;">
-      I'm Ayush Sharma, a passionate B.Tech student specializing in Artificial Intelligence and Machine Learning. I enjoy exploring cutting-edge technologies and building innovative solutions.
+      I'm Ayush Sharma, a passionate B.Tech student specializing in Artificial Intelligence and Machine Learning. I
+      enjoy exploring cutting-edge technologies and building innovative solutions.
     </div>
   </section>
 
@@ -205,7 +229,8 @@
           <p>Python</p>
         </div>
         <div style="text-align: center;">
-          <img src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3256498/file-type-cpp-icon-md.png" alt="C++">
+          <img src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3256498/file-type-cpp-icon-md.png"
+            alt="C++">
           <p>C++</p>
         </div>
         <div style="text-align: center;">
@@ -238,31 +263,63 @@
   <div class="container">
     <div class="section-title">Certificates & Projects</div>
 
+    <!-- Certificate 1 -->
     <div class="card" data-aos="fade-up">
-      <div class="course-name">Python for Everybody</div>
-      <div class="description">A beginner-friendly course covering basic to intermediate Python concepts including strings, loops, and functions.</div>
-      <div class="certificate">Certificate: <a href="#">View Certificate</a></div>
-      <div class="project">Project: Text Analyzer</div>
+      <div class="course-name">What is Generative AI – Microsoft</div>
+      <div class="description">Overview of Generative AI, its applications, and ethical use. Provided by Microsoft.
+      </div>
+      <div class="certificate">Certificate: <a
+          href="https://drive.google.com/file/d/1MBpTqV1okGzoebfxhdlCDfy8ODrh6enA/view?usp=sharing">View Certificate</a>
+      </div>
+    </div>
+
+    <!-- Certificate 2 -->
+    <div class="card" data-aos="fade-up">
+      <div class="course-name">Introduction to Microsoft 365</div>
+      <div class="description">Fundamentals of productivity tools in the Microsoft 365 ecosystem including Word, Excel,
+        and Teams.</div>
+      <div class="certificate">Certificate: <a
+          href="https://drive.google.com/file/d/1f4yobECApSGRZJhl-N2mRFLagB6VGMqJ/view?usp=sharing">View Certificate</a>
+      </div>
+    </div>
+
+    <!-- Project 1 -->
+    <div class="card" data-aos="fade-up">
+      <div class="course-name">AI-Powered Resume Screener</div>
+      <div class="description">A Flask-based app using NLP to extract and match resume keywords with job descriptions.
+      </div>
+      <div class="project">Project: Resume Screener</div>
       <div class="project-link">Project Link: <a href="#">GitHub</a></div>
     </div>
 
+    <!-- Project 2 -->
     <div class="card" data-aos="fade-up">
-      <div class="course-name">Machine Learning Basics</div>
-      <div class="description">This course introduced key ML concepts such as supervised learning, data preprocessing, and model evaluation.</div>
-      <div class="certificate">Certificate: <a href="#">View Certificate</a></div>
-      <div class="project">Project: House Price Prediction ML</div>
+      <div class="course-name">Sentiment Analysis of Tweets</div>
+      <div class="description">Analyzed public sentiments from Twitter data using ML algorithms and presented results
+        visually.</div>
+      <div class="project">Project: Twitter Sentiment Classifier</div>
+      <div class="project-link">Project Link: <a href="#">GitHub</a></div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="card" data-aos="fade-up">
+      <div class="course-name">House Price Prediction</div>
+      <div class="description">Built a regression model to predict housing prices using Scikit-learn.</div>
+      <div class="project">Project: House Price Predictor</div>
       <div class="project-link">Project Link: <a href="#">GitHub</a></div>
     </div>
   </div>
 
+
   <div class="container">
     <div class="section-title">Contact Information</div>
     <div class="card" data-aos="zoom-in-up">
-      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ayush-s-5b3a18336/?trk=opento_sprofile_details" target="_blank">LinkedIn</a></p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ayush-s-5b3a18336/?trk=opento_sprofile_details"
+          target="_blank">LinkedIn</a></p>
       <p><strong>GitHub:</strong> <a href="https://github.com/SAyush123" target="_blank">GitHub</a></p>
       <p><strong>Kaggle:</strong> <a href="https://www.kaggle.com/ayushsharma2007" target="_blank">Kaggle</a></p>
     </div>
-  </div>  
+  </div>
 
   <footer>
     &copy; 2025 Ayush Sharma | All rights reserved.
@@ -292,4 +349,5 @@
     });
   </script>
 </body>
+
 </html>
